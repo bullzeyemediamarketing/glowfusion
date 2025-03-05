@@ -53,15 +53,15 @@ export default function App({
     <>
       {/* ✅ Global SEO Settings */}
       <DefaultSeo
-        titleTemplate="%s | Glow Fusion -Advanced Health & Skincare Solutions"
-        defaultTitle="Glow Fusion - Advanced Health & Skincare Solutions"
-        description="Glow Fusion is your trusted destination for cutting-edge health and skincare solutions. We combine science-backed            treatments with innovative wellness."
-        canonical="https://glowfusion.vercel.app/"
-        openGraph={{
-          url: "https://glowfusion.vercel.app/",
-          title: "Glow Fusion - Advanced Health & Skincare Solutions",
-          description: "Glow Fusion is your trusted destination for cutting-edge health and skincare solutions. We combine science-backed            treatments with innovative wellness.",
-          images: [
+        titleTemplate= "Glow Fusion - Advanced Health & Skincare Solutions"
+      defaultTitle="Glow Fusion - Advanced Health & Skincare Solutions"
+      description="Glow Fusion offers science-backed skincare and advanced health solutions to enhance your natural beauty and well-being."
+      canonical="https://glowfusion.vercel.app/"
+      openGraph={{
+        url: "https://glowfusion.vercel.app/",
+        title: "Glow Fusion - Advanced Health & Skincare Solutions",
+        description:
+          "Glow Fusion is your trusted destination for cutting-edge health and skincare solutions. We combine science-backed treatments with innovative wellness.",
             {
               url: "https://glowfusion.vercel.app/glowfusion-image.jpg", // Replace with your actual OG image URL
               width: 1200,
