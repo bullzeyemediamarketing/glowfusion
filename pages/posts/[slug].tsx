@@ -99,12 +99,14 @@ export default function ProjectSlugRoute(props: PageProps) {
   const postUrl = `https://glowfusion.vercel.app/posts/${post.slug}`
 
   // ✅ SEO for Individual Blog Post
-  const seoTitle = post.title || "Default Title"
+  // Ensure SEO title is the post title and truncated to a max of 60 characters
+ const seoTitle = post.title ? (post.title.length > 60 ? post.title.substring(0, 60) : post.title) : "Default Title"
+
 
   // ✅ Truncate SEO Description to 160 characters max
   const seoDescription = post.excerpt
-    ? post.excerpt.length > 150
-      ? post.excerpt.substring(0, 149) + '.'  // Truncate if it exceeds 160 characters
+    ? post.excerpt.length > 157
+      ? post.excerpt.substring(0, 156) + '.'  // Truncate if it exceeds 160 characters
       : post.excerpt
     : "Read this amazing blog post on GLOW FUSION."
 
