@@ -53,7 +53,7 @@ export default function App({
     <>
       {/* ✅ Global SEO Settings */}
       <DefaultSeo
-        titleTemplate="%s | Glow Fusion"
+        titleTemplate="%s | Glow Fusion -Advanced Health & Skincare Solutions"
         defaultTitle="Glow Fusion - Advanced Health & Skincare Solutions"
         description="Glow Fusion is your trusted destination for cutting-edge health and skincare solutions. We combine science-backed            treatments with innovative wellness."
         canonical="https://glowfusion.vercel.app/"
