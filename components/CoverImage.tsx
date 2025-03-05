@@ -68,7 +68,7 @@ export default function CoverImage(props: CoverImageProps) {
       })}
     >
       <Image
-        className="h-auto w-60"
+        className="h-auto w-full"
         width={720}
         height={560}
         alt={alt || title} // Use alt text passed as a prop or default to the post title
