@@ -53,29 +53,28 @@ export default function App({
     <>
       {/* ✅ Global SEO Settings */}
       <DefaultSeo
-         titleTemplate="%s | Glow Fusion -Advanced Health & Skincare Solutions "
-      defaultTitle="Glow Fusion - Advanced Health & Skincare Solutions"
-      description="Glow Fusion offers science-backed skincare and advanced health solutions to enhance your natural beauty and well-being."
-      canonical="https://glowfusion.vercel.app/"
-      openGraph={{
-        url: "https://glowfusion.vercel.app/",
-        title: "Glow Fusion - Advanced Health & Skincare Solutions",
-        description:
-          "Glow Fusion is your trusted destination for cutting-edge health and skincare solutions. We combine science-backed treatments with innovative wellness.",
+        titleTemplate="%s | Glow Fusion - Advanced Health & Skincare Solutions"
+        defaultTitle="Glow Fusion - Advanced Health & Skincare Solutions"
+        description="Glow Fusion offers science-backed skincare and advanced health solutions to enhance your natural beauty and well-being."
+        canonical="https://glowfusion.vercel.app/"
+        openGraph={{
+          url: "https://glowfusion.vercel.app/",
+          title: "Glow Fusion - Advanced Health & Skincare Solutions",
+          description: "Glow Fusion offers science-backed skincare and advanced health solutions to enhance your natural beauty and well-being.",
+          images: [
             {
-              url: "https://glowfusion.vercel.app/glowfusion-image.jpg", // Replace with your actual OG image URL
+              url: "https://glowfusion.vercel.app/glowfusion-image.jpg", // Ensure this image exists
               width: 1200,
               height: 630,
               alt: "Glow Fusion",
             },
           ],
-          site_name: "Glow Fusion - Advanced Health & Skincare Solutions",
-      
+          site_name: "Glow Fusion -Advanced Health & Skincare Solutions",
         }}
         twitter={{
           handle: "@GlowFusion",
           site: "@GlowFusion",
-          cardType: "summary_large_image", // Make sure you use this card type for better display on Twitter
+          cardType: "summary_large_image",
         }}
       />
 
