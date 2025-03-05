@@ -29,6 +29,7 @@
     "next": "15.2.1",
     "next-sanity": "9.8.61",
     "next-sanity-image": "6.1.1",
+    "next-seo": "^6.6.0",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "sanity": "3.78.0",
