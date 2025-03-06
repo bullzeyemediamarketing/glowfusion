@@ -104,8 +104,8 @@ export default function ProjectSlugRoute(props: PageProps) {
 
   // ✅ Truncate SEO Description to 160 characters max
   const seoDescription = post.excerpt
-    ? post.excerpt.length > 157
-      ? post.excerpt.substring(0, 155) + '.'  // Truncate if it exceeds 160 characters
+    ? post.excerpt.length > 140
+      ? post.excerpt.substring(0, 139) + '.'  // Truncate if it exceeds 160 characters
       : post.excerpt
     : "Read this amazing blog post on GLOW FUSION."
 
