@@ -96,7 +96,7 @@ export default function ProjectSlugRoute(props: PageProps) {
   const { settings, post, morePosts, draftMode } = props
 
   // ✅ Generate SEO-friendly URL based on the post slug
-  const postUrl = `https://glowfusion.vercel.app/posts/${post.slug}`
+  const postUrl = `https://glowfusion.vercel.app/posts/${post.slug}/`
 
   // ✅ SEO for Individual Blog Post
  const seoTitle = post.title || "Default Title"
